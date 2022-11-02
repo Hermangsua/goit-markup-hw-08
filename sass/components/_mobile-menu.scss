@@ -1,4 +1,11 @@
 // HW-08
+
+.mobile-navigation {
+  display: inline-block;
+}
+.menu-container {
+  display: inline-block;
+}
 .menu-button {
   display: inline-flex;
   margin: 0;
@@ -89,6 +96,7 @@
       letter-spacing: 0.02em;
     }
     &:first-child {
+      margin-bottom: 64px;
       font-weight: 500;
       font-size: 24px;
       line-height: 1.16;
@@ -112,7 +120,6 @@
     display: none;
   }
   display: flex;
-  margin-top: 64px;
   &__item {
     &:not(:last-child) {
       border-right: 1px solid rgba(33, 33, 33, 0.2);
