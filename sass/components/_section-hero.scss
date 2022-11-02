@@ -1,0 +1,110 @@
+// /* Hero */
+// .section-hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/Headerimg.jpg);
+//     background-repeat: no-repeat;
+//     object-fit: cover;
+//     background-position: 50% 50%;
+//     max-width: 480px;
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+//     background-color:$hero-bcg-color;
+//     text-align: center;
+//     &__title{
+//     width: 360px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         text-align: center;
+//         margin-top: 0;
+//         margin-bottom: 30px;
+//         color: $primary-white-color;
+//         font-weight: 900;
+//         font-size: 44px;
+//         line-height: 1.36;
+//         text-align: center;
+//         letter-spacing: 0.06em;
+//         text-transform: uppercase;
+//     }
+// }
+
+
+// HW-08
+
+.section-hero{
+    padding-top: 118px;
+    padding-bottom: 118px;
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/Headerimg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $hero-bcg-color;
+    text-align: center;
+    display: block;
+        height: 100%;
+        width: 100%;
+
+&__title{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 0;
+margin-bottom: 30px;
+color: $primary-white-color;
+font-weight: 900;
+font-size: 26px;
+line-height: 1.61;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}  
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+.section-hero{
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/sectionhero-480-2x.jpg);
+}
+}
+
+
+ @media screen and (min-width:481px) {
+.section-hero{
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/sectionhero-768.jpg);
+&__title {
+        width: 360px;
+    }
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-hero {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/section-hero-768-2x.jpg);
+    }
+}
+ }
+
+ @media screen and (min-width:769px) {
+     .section-hero {
+         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/section-hero-1200.jpg);
+        padding-top: 200px;
+        padding-bottom: 200px;
+         &__title {
+            width: 360px;
+            width: 696px;
+            font-size: 44px;
+            line-height: 1.36;
+         }
+     }
+
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+         .section-hero {
+             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/section-hero-1200-2x.jpg);
+         }
+     }
+ }
+

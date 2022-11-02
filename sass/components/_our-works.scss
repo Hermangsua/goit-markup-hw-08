@@ -1,0 +1,41 @@
+/* Our works */
+.our-works {
+  padding-bottom: 94px;
+  background-color: $primary-white-color;
+  &-pic {
+    display: flex;
+    .our-works-list {
+      position: relative;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+.our-works-discr {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  background-color: $bcg-our-works-card;
+  &-title {
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: $primary-white-color;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+
+.our-works {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
