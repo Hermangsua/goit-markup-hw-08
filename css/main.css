@@ -383,7 +383,7 @@ header {
 .section-hero {
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/Headerimg.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../imgnew/Headerimg.jpg);
   background-repeat: no-repeat;
   object-fit: cover;
   background-position: 50% 50%;
@@ -412,12 +412,12 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/sectionhero-480-2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../imgnew/sectionhero-480-2x.jpg);
   }
 }
 @media screen and (min-width: 481px) {
   .section-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/sectionhero-768.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../imgnew/sectionhero-768.jpg);
   }
   .section-hero__title {
     width: 360px;
@@ -425,12 +425,12 @@ header {
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .section-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/section-hero-768-2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../imgnew/section-hero-768-2x.jpg);
   }
 }
 @media screen and (min-width: 769px) {
   .section-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/section-hero-1200.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../imgnew/section-hero-1200.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -443,7 +443,7 @@ header {
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .section-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imgnew/section-hero-1200-2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../imgnew/section-hero-1200-2x.jpg);
   }
 }
 /* Button */
