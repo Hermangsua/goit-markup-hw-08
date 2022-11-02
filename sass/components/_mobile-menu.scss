@@ -15,6 +15,7 @@
   margin-right: 8px;
   flex-basis: 24px;
   position: relative;
+  z-index: 10;
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -51,6 +52,7 @@
     width: 100%;
     padding: 48px 40px 48px 40px;
     &.is-open {
+      z-index: 1;
       display: block;
     }
   }
@@ -91,7 +93,7 @@
     &:last-child {
       margin: 306px 0 32px 0;
       font-weight: 500;
-      font-size: 34px;
+      font-size: 27px;
       line-height: 1.17;
       letter-spacing: 0.02em;
     }
@@ -133,7 +135,7 @@
 
 .socials-mobile__item-link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: $accent-color;
